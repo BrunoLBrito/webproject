@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Bruno Lucas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="js/shadowbox/shadowbox.css"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -60,12 +62,12 @@
 
     <section id="portfolio" class="flexbox">
         <h2>Portfólio</h2>
-        <img src="img/portfolio-1.jpg" alt="Cogumelos" title="Cogumelos">
-        <img src="img/portfolio-2.jpg" alt="Natureza" title="Natureza">
-        <img src="img/portfolio-3.jpg" alt="Montanhas" title="Montanhas">
-        <img src="img/portfolio-4.jpg" alt="Neve" title="Neve">
-        <img src="img/portfolio-5.jpg" alt="Praia" title="Praia">
-        <img src="img/portfolio-6.jpg" alt="Veado" title="Veado">
+        <?php
+          for ($i = 1; $i <= 6; $i++):
+             $image = str_pad($i, 11, "portfolio-", STR_PAD_LEFT);
+              echo "<a href='img/{$image}.jpg' rel='shadowbox[gb]'><img src='img/{$image}.jpg' alt='Galeria' title='Galeria'/></a>";
+          endfor;
+        ?>
     </section>
 
     <section id="contato" class="flexbox">
@@ -85,5 +87,9 @@
     <footer>
         <p>&copy; Copyright. Desenvolvido por Bruno Lucas. 2017</p>
     </footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<script src="js/shadowbox/shadowbox.js"></script>
 </body>
 </html>
