@@ -1,11 +1,17 @@
 $sans: sans-serif
-$cinza: #d4d4d4
+$cinza: #4d4d4d
+$branco: #f1f1f1
 =flexbox
     display: -webkit-box
     display: -webkit-flex
     display: -moz-flex
     display: -ms-flexbox
     display: flex
+
+// .flexbox
+//     +flexbox
+//     flex-direction: column
+//     align-items: center
 
 /* GERAL */
 body
@@ -17,7 +23,7 @@ h1, h2, h3
     font-weight: 700
 
 .btn
-    color: #f1f1f1
+    color: $branco
     text-decoration: none
     padding: 10px 30px
     background-color: #8f3faf
@@ -33,7 +39,7 @@ nav
 
 nav > a
     text-decoration: none
-    color: #f1f1f1
+    color: $branco
     font-weight 700
     font-size: 28px
     font-family: Pacifico, $sans
@@ -55,7 +61,7 @@ nav ul li a
     padding: 10px 0
     width: 100%
     text-decoration: none
-    color: #f1f1f1
+    color: $branco
 
 /* CABEÇALHO */
 header
@@ -63,7 +69,7 @@ header
     background-size: cover
     background-position: center
     background-repeat: no-repeat
-    color: #f1f1f1
+    color: $branco
     +flexbox
     flex-direction: column
     align-items: center
@@ -81,15 +87,15 @@ header p
     text-align: center
     padding: 0 20px 20px
     background-color: #8f2faf
-    color: #f1f1f1
+    color: $branco
 
 #sobre p
     margin-bottom: 2.5em
     max-width: 1000px
 
 #sobre .btn
-    background-color: #f1f1f1
-    color: #4d4d4d
+    background-color: $branco
+    color: $cinza
 
 /* SERVIÇOS */
 #servicos
@@ -130,8 +136,8 @@ header p
 footer
     text-align: center
     padding: 10px
-    background-color: #4d4d4d
-    color: #f1f1f1
+    background-color: $cinza
+    color: $branco
 
 /* MEDIA QUERIES */
 @media (min-width: 768px)
