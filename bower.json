@@ -1,0 +1,17 @@
+{
+  "name": "Web Project",
+  "description": "Criando um layout profissional",
+  "main": "index.js",
+  "authors": [
+    "Bruno Lucas <bruno-lucas@msn.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
