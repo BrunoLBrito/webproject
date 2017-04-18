@@ -1,8 +1,12 @@
+<?php
+    define('HOME', 'index.php');
+    $title = "Bruno Lucas";
+ ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Bruno Lucas</title>
+    <title><?= $title; ?></title>
 
     <!-- META TAGS  -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +20,7 @@
     <!-- LINKS REFERENCIA -->
     <link rel="stylesheet" href="js/shadowbox/shadowbox.css"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!--[if lt IE 9]>
@@ -25,8 +29,9 @@
 
 </head>
 <body>
+    <h1 class="title"><?= $title; ?></h1>
     <nav class="flexbox">
-        <a href="#">Bruno Brito</a>
+        <a href="<?= HOME; ?>">Bruno Brito</a>
         <ul class="flexbox">
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#servicos">Serviços</a></li>
@@ -102,7 +107,7 @@
         <p>&copy; Copyright. Desenvolvido por Bruno Lucas. 2017</p>
     </footer>
 
-<script src="js/jquery.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/shadowbox/shadowbox.js"></script>
 </body>

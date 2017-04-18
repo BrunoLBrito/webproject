@@ -5,8 +5,8 @@
   "authors": [
     "Bruno Lucas <bruno-lucas@msn.com>"
   ],
-  "license": "ISC",
-  "homepage": "",
+  "license": "MIT",
+  "homepage": "https://github.com/BrunoLBrito/webproject",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -14,7 +14,10 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "html5shiv": "^3.7.3"
-  }
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "html5shiv": "^3.7.3",
+    "normalize-css": "normalize.css#4.1.1"
+  },
+  "devDependencies": {}
 }
