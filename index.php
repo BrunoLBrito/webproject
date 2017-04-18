@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Bruno Lucas</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- META TAGS  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Acompanhe meus trabalhos de webmaster com as linguagens HTML5, JAVASCRIPT, CSS, MYSQL, PHP, NODE.JS, GIT, GITHUB entre outros!"> <!-- CERCA DE UNS 140 CARACTERES MAX -->
+    <meta name="author" content="Bruno Lucas">
+    <meta name="keywords" content="PHP, PHP OO, javascript, Bruno Lucas, incognitoweb">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta name="reply-top" content="bruno-lucas@msn.com">
+
+    <!-- LINKS REFERENCIA -->
     <link rel="stylesheet" href="js/shadowbox/shadowbox.css"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
     <!--[if lt IE 9]>
       <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
     <![endif]-->
+
 </head>
 <body>
     <nav class="flexbox">
