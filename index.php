@@ -9,10 +9,13 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--[if lt IE 9]>
+      <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <![endif]-->
 </head>
 <body>
     <nav class="flexbox">
-        <a href="#">LOREM IPSUM</a>
+        <a href="#">Bruno Brito</a>
         <ul class="flexbox">
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#servicos">Serviços</a></li>
